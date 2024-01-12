@@ -1,8 +1,8 @@
 import React from "react";
-import '.Business.css';
+import './Business.css';
 
-const Business = ({ business }) => {
-    const business = { imageSrc, name, address, city, state, zipCode, category, rating, reviewCount };
+const Business = (props) => {
+    const { imageSrc, name, address, city, state, zipCode, category, rating, reviewCount } = props.business;
   
     return (
       <div className="Business">
@@ -24,6 +24,7 @@ const Business = ({ business }) => {
         </div>
       </div>
     );
-  };
+};
 
 export default Business;
+

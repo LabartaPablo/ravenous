@@ -3,9 +3,11 @@ const fakeDataBusiness = {
     name: 'El Pikoteo',
     address: 'Glenesky Square 31',
     city: 'Dublin',
-    state: 'D15',
-    zipCode: 'D15N22F',
-    category: 'Spanish',
+    state: 'Castleknock',
+    zipCode: 'D15X08F',
+    category: 'SPANISH',
     rating: 4.7,
     reviewCount: 67,
   };
+
+  export default fakeDataBusiness;
