@@ -1,0 +1,15 @@
+.titleNav {
+    background-color: #c19648;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titleNav h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+  

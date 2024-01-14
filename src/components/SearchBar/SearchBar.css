@@ -1,0 +1,38 @@
+/* SearchBar.css */
+.SearchBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .SearchBar-sort-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .SearchBar-sort-options li {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .SearchBar-sort-options li.active {
+    color: #007BFF;
+  }
+  
+  .SearchBar-fields input {
+    width: 30%;
+    padding: 8px;
+  }
+  
+  .SearchBar-submit button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
